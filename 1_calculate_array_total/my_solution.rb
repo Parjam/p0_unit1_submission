@@ -44,7 +44,7 @@ end
 
 def sentence_maker (array)
     joined = array.join (" ")
-    sentence = sentence.capitalize + "."
+    sentence = joined.capitalize + "."
 end
 
 # 4. Reflection 
