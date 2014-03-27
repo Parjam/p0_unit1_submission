@@ -51,9 +51,6 @@ var jim = {
 
 
 var clientList = [adam, kristen, jim];
-// clientList[0] = adam;
-// clientList[1] = kristen;
-// clientList[2] = jim;
 
 
 ////////////////////////////////
