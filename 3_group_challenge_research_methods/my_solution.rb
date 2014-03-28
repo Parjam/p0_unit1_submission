@@ -39,13 +39,13 @@ def my_array_sorting_method(source)
 end
 
 def my_hash_sorting_method(source)
-  # Your code here!
+  source.sort_by {|k,v| v}
 end
 
 
 # Identify and describe the ruby method you implemented. 
-# 
-#
+# For array, I used map to access each index of the array and make them a string. Then I sorted them and kept the unique elements.
+# For hash, I just sorted them by value.
 #
 
 
