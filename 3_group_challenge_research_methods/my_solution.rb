@@ -35,7 +35,7 @@ end
 
 # Person 3
 def my_array_sorting_method(source)
-  # Your code here!
+  source.map {|i| i.to_s}.sort.uniq
 end
 
 def my_hash_sorting_method(source)
