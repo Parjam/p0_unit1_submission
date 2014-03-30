@@ -21,19 +21,19 @@ class Array
 	def pad (minSize, value = nil)
 		arr = self.clone
 		if arr.length >= minSize
-			return arr
+		return arr
             else
-			arr << value until arr.length >= minSize
-			return arr
+		arr << value until arr.length >= minSize
+		return arr
 		end
 	end
     
 	def pad! (minSize, value = nil)
 		if self.length >= minSize
-			return self
+		return self
             else
-			self << value until self.length >= minSize
-			return self
+		self << value until self.length >= minSize
+		return self
 		end
 	end
 end
