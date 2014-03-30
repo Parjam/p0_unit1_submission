@@ -102,4 +102,4 @@ end
 
 # 5. Reflection
 
-# Its great to see other people's different approach to same challenge. I learned there are many ways to do the same challenge.
+# Its great to see other different approaches to same challenge. I learned there are many ways to do the same challenge.
